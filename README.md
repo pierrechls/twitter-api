@@ -68,18 +68,25 @@ $ yarn server
 | --- | --- | --- | --- |
 | `GET` | `/tweets` | Returns a collection of the most recent Tweets posted by the user indicated by the screen_name or user_id parameters. | [statuses/user_timeline](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline.html)
 
+_NB : you want another Twitter API ? Please open an [issue](https://github.com/pierrechls/twitter-api/new) or create a [pull request](https://github.com/pierrechls/twitter-api/compare)_
+
 ## :rocket: How to deploy
 
-#### Heroku
+#### Create Heroku application
 
-- Create a Heroku application from [here](https://dashboard.heroku.com/new-app)
-- Adding your Heroku application remote url to your local repository :
+You have to create a Heroku application from [here](https://dashboard.heroku.com/new-app)
+
+#### Adding Heroku remote url to git
+
+Adding your Heroku application remote url to your local repository :
 
 ```bash
 $ heroku git:remote -a <YOUR_HEROKU_APP_NAME>
 ```
 
-- Set Heroku config vars
+#### Set Heroku config vars
+
+Set environnement settings to your Heroku application :
 
 ```bash
 $ heroku config:set TWITTER_USERNAME="<YOUR_TWITTER_USERNAME>" \
@@ -91,7 +98,7 @@ $ heroku config:set TWITTER_USERNAME="<YOUR_TWITTER_USERNAME>" \
 
 _NB : you can also set yours Heroku config vars from the interface by going into the Settings application tab_
 
-- Deploy to Heroku
+#### Deploy to Heroku
 
 ```bash
 $ git push heroku master
