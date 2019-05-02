@@ -1,0 +1,18 @@
+{
+  "name": "twitter-api",
+  "version": "1.0.0",
+  "description": "A simple twitter API",
+  "author": "Pierre Charles <pierre.chls@gmail.com>",
+  "private": true,
+  "scripts": {
+    "server": "node api/server.js"
+  },
+  "engines": {
+    "node": ">=8.9"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "twit": "^2.2.5",
+    "dotenv": "^2.0.0"
+  }
+}
