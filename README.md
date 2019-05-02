@@ -1,4 +1,4 @@
-[![version](https://img.shields.io/badge/version-1.0.0-green.svg?style=flat-square)](https://github.com/pierrechls/twitter-api)
+[![version](https://img.shields.io/github/release/pierrechls/twitter-api.svg?style=for-the-badge&logo=appveyor)](https://github.com/pierrechls/twitter-api)
 
 # Twitter API :hatched_chick:
 
@@ -6,7 +6,7 @@
 
 ## :grey_exclamation: Prior installation
 
-#### Install external depencies
+#### Install external dependencies
 
 - [Node.js](https://nodejs.org/en/download/)
 - [Yarn](https://yarnpkg.com/lang/en/docs/install/)
