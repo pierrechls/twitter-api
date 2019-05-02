@@ -1,4 +1,4 @@
-[![version](https://img.shields.io/github/release/pierrechls/twitter-api.svg?style=for-the-badge&logo=appveyor)](https://github.com/pierrechls/twitter-api)
+[![version](https://img.shields.io/github/release/pierrechls/twitter-api.svg?style=flat-square)](https://github.com/pierrechls/twitter-api)
 
 # :hatched_chick: Twitter API
 
