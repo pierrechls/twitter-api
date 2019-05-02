@@ -43,15 +43,15 @@ Setting your configuration :
 
 ```bash
 # API
-API_URL="<YOUR_API_URL>"   # Your local API URL (for example: `http:/`/localhost)
+API_URL="<YOUR_API_URL>"   # Your local API URL (for example: `http://localhost)
 API_PORT="<YOUR_API_PORT>" # Your local API port (for example: `3000`)
 
 # TWITTER
-TWITTER_USERNAME="<YOUR_TWITTER_USERNAME>"
-TWITTER_CONSUMER_KEY="<YOUR_CONSUMER_KEY>"
-TWITTER_CONSUMER_SECRET="<YOUR_CONSUMER_SECRET>"
-TWITTER_ACCESS_TOKEN="<YOUR_ACCESS_TOKEN>"
-TWITTER_ACCESS_TOKEN_SECRET="<YOUR_ACCESS_TOKEN_SECRET>"
+TWITTER_USERNAME="<YOUR_TWITTER_USERNAME>"               # Username
+TWITTER_CONSUMER_KEY="<YOUR_CONSUMER_KEY>"               # API key
+TWITTER_CONSUMER_SECRET="<YOUR_CONSUMER_SECRET>"         # API secret key
+TWITTER_ACCESS_TOKEN="<YOUR_ACCESS_TOKEN>"               # Access token
+TWITTER_ACCESS_TOKEN_SECRET="<YOUR_ACCESS_TOKEN_SECRET>" # Access token secret
 ```
 
 ## :video_game: How to use it ?
@@ -90,7 +90,7 @@ Please refer to the [Twitter developer documentation](https://developer.twitter.
 
 ## :raised_hands: Contribute
 
-Contributing to [twitter-api](https://github.com/pierrechls/twitter-api) it's a piece of :cake:. You have an idea about a new feature ? Fork the repo, do your stuff and open a [pull request](<https://github.com/pierrechls/twitter-api/compare) ! You can also report a problem or a suggestion by opening an [issue](https://github.com/pierrechls/twitter-api/new).
+Contributing to [twitter-api](https://github.com/pierrechls/twitter-api) it's a piece of :cake:. You have an idea about a new feature ? Fork the repo, do your stuff and open a [pull request](https://github.com/pierrechls/twitter-api/compare) ! You can also report a problem or a suggestion by opening an [issue](https://github.com/pierrechls/twitter-api/new).
 
 ## :tada: Credits
 
