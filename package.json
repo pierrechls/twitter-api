@@ -10,9 +10,10 @@
   "engines": {
     "node": ">=8.9"
   },
-  "dependencies": {},
+  "dependencies": {
+    "twit": "^2.2.5"
+  },
   "devDependencies": {
-    "twit": "^2.2.5",
     "dotenv": "^2.0.0"
   }
 }
