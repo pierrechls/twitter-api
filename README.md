@@ -1,6 +1,6 @@
 [![version](https://img.shields.io/github/release/pierrechls/twitter-api.svg?style=for-the-badge&logo=appveyor)](https://github.com/pierrechls/twitter-api)
 
-# Twitter API :hatched_chick:
+# :hatched_chick: Twitter API
 
 > A simple Node.js Twitter API
 
@@ -15,7 +15,7 @@
 
 Create a Twitter application from [Twitter developer platform](https://developer.twitter.com/en/apps).
 
-## :rocket: How to install ?
+## :nut_and_bolt: How to install ?
 
 #### Clone the repo
 
