@@ -2,8 +2,8 @@ var Twitter = require('./twitter')
 var express = require('express')
 var app = express()
 
-var port = process.env.API_PORT;
-var url = process.env.API_URL;
+var port = process.env.NODE_ENV === "production" ? process.env.PORT : process.env.API_PORT
+var url = process.env.NODE_ENV === "production" ? "localhost" : process.env.API_URL
 var profile = process.env.TWITTER_USERNAME;
 
 app.use(function (req, res, next) {
