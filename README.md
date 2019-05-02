@@ -33,13 +33,13 @@ $ yarn install
 
 #### Environnement settings
 
-Create _.env_ file by running :
+- Create _.env_ file by running :
 
 ```bash
 $ cp .env.example .env
 ```
 
-Setting your configuration :
+- Set your configuration :
 
 ```bash
 # API
@@ -78,6 +78,19 @@ $ yarn server
 ```bash
 $ heroku git:remote -a <YOUR_HEROKU_APP_NAME>
 ```
+
+- Set Heroku config vars
+
+```bash
+$ heroku config:set TWITTER_USERNAME="<YOUR_TWITTER_USERNAME>" \
+                    TWITTER_CONSUMER_KEY="<YOUR_CONSUMER_KEY>" \
+                    TWITTER_CONSUMER_SECRET="<YOUR_CONSUMER_SECRET>" \
+                    TWITTER_ACCESS_TOKEN="<YOUR_ACCESS_TOKEN>" \
+                    TWITTER_ACCESS_TOKEN_SECRET="<YOUR_ACCESS_TOKEN_SECRET>"
+```
+
+_NB : you can also set yours Heroku config vars from the interface by going into the Settings application tab_
+
 - Deploy to Heroku
 
 ```bash
